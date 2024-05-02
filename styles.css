@@ -1,0 +1,37 @@
+body{
+	background-color: rgb(218, 237, 230);
+}
+.table{
+	margin-top: 20px;
+	width: 100%;
+	text-align: left;
+}
+.table th, .table td{
+	border-top: 1px solid hwb(0 74% 14%);
+}
+
+.table th:last-child, .table td:last-child{
+	text-align: right;
+}
+
+#app{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+input{
+	display: block;
+}
+input[type=button]{
+	margin-top: 10px;
+	background-color: aquamarine;
+	border-radius: 30px;
+	border-color: aquamarine;
+	color: black;
+
+}
+.table button{
+	background-color: rgb(231, 33, 33);
+	border-radius: 30px;
+	color: aliceblue;
+	border: none;
+}
