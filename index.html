@@ -12,13 +12,13 @@
 			<h1>Cadastro de Alunos</h1>
 			<form action>
 				<label for="nomeCompleto">Nome Completo</label>
-				<input  name="nomeCompleto" type="text" v-model="form.nome" >
+				<input  name="nomeCompleto" type="text" v-model="form.nome" required >
 
 				<label for="email">Email</label>
-				<input  name="email" type="text" v-model="form.email">
+				<input  name="email" type="text" v-model="form.email" required>
 
 				<label for="nota">Nota</label>
-				<input  name="nota" type="text" v-model="form.nota">
+				<input  name="nota" type="text" v-model="form.nota" required>
 
 				<input type="button" value="Cadastrar" @click="adicionarAluno">
 			</form>
